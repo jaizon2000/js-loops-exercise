@@ -38,6 +38,7 @@ function exercise5() {
 function exercise6() {
 
     // let num = Number(prompt('Enter a num: '));
+    // DOESNT WORK WITH ALL NUMS
     let num = 30;
     console.log('print multiples of ' + num);
 
