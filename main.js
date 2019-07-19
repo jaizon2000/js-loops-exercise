@@ -1,4 +1,4 @@
-/* TITLE */
+/* LOOPS EXERCISE */
 'use strict';
 
 function exercise1() {
