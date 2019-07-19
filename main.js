@@ -36,12 +36,13 @@ function exercise5() {
 }
 
 function exercise6() {
-    
-    let num = Number(prompt('Enter a num: '));
+
+    // let num = Number(prompt('Enter a num: '));
+    let num = 30;
     console.log('print multiples of ' + num);
 
     for (let i = 1; i <= num; i++) {
-       let multi = num / i;
+        let multi = num / i;
 
         if (multi % 2 == 0) {
             console.log(i + ', ' + multi);
@@ -49,6 +50,6 @@ function exercise6() {
     }
 }
 
-function showAnswer(){
+function showAnswer() {
     document.getElementById('answer').classList.toggle('hide');
 }
