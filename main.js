@@ -48,3 +48,7 @@ function exercise6() {
         }
     }
 }
+
+function showAnswer(){
+    document.getElementById('answer').classList.toggle('hide');
+}
